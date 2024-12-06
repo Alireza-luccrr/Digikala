@@ -1,0 +1,23 @@
+@import "./partials/fresh.css";
+@import "./partials/fresh2.css";
+@import "./partials/slider.css";
+@import "./partials/amz-day.css";
+@import "./partials/cat-3.css";
+@import "./partials/finish.css";
+@import "./partials/finish2.css";
+@import "./partials/plus.css";
+@import "./partials/all.css";
+@import "../../../assets/css/partials/layout/header.css";
+@import "../../../assets/css/partials/layout/categories-header.css";
+@import "../../../assets/css/partials/layout/footer-1.css";
+@import "../../../assets/css/partials/layout/footer-2.css";
+@import "../../../assets/css/partials/layout/footer-3.css";
+@import "../../../assets/css/partials/layout/footer-4.css";
+@import "../../../assets/css/partials/layout/footer-5.css";
+@import "../../../assets/css/partials/layout/footer-6.css";
+@import "../../../assets/css/partials/layout/footer-7.css";
+@import "../../../assets/css/partials/layout/footer-8.css";
+@import "../../../assets/css/partials/layout/location.css";
+@import "../../../assets/css/partials/layout/setting.css";
+
+

@@ -1,0 +1,62 @@
+.footer-5 {
+  width: 100%;
+  height: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.footer-5 .footer-5-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: inherit;
+  background-color: #3c4b6d;
+  border-radius: 8px;
+  padding: 8px 20px;
+}
+.footer-5 .footer-5-box .right {
+  width: 288px;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-5 .footer-5-box .right .right-img {
+  width: 44px;
+  height: 44px;
+}
+.footer-5 .footer-5-box .right .right-p {
+  font-family: var(--font-family);
+  font-size: 21px;
+  font-weight: 500;
+  color: #fff;
+}
+.footer-5 .footer-5-box .left {
+  width: 528px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-5 .footer-5-box .left .left-a {
+  width: 142px;
+  height: 44px;
+  border-radius: 4px;
+}
+.footer-5 .footer-5-box .left .left-a .left-img-ss {
+  width: inherit;
+  height: inherit;
+  border-radius: 4px;
+}
+.footer-5 .footer-5-box .left .left-b {
+  width: 42px;
+  height: 44px;
+  border-radius: 8px;
+}
+.footer-5 .footer-5-box .left .left-b .left-img-ee {
+  width: inherit;
+  height: inherit;
+  border-radius: 8px;
+  background-color: white;
+}

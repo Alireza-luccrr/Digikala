@@ -1,0 +1,110 @@
+header {
+  border-bottom: 2px solid #e0e0e2;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 20;
+  background-color: #fff;
+  font-size: 12px;
+}
+
+header .poster img {
+  width: 100%;
+  height: 60px;
+  object-fit: cover;
+}
+
+header .first .search .logo {
+  width: 85%;
+  display: block;
+  margin-left: 15px;
+}
+
+header .first {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 20px;
+}
+
+header input {
+  border: none;
+  background: transparent;
+  margin-right: 15px;
+}
+
+header input:focus {
+  outline: none;
+}
+
+header .search {
+  display: flex;
+  width: 60%;
+  align-items: center;
+}
+
+header .search div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #f0f0f1;
+}
+
+.shop {
+  display: flex;
+  width: 40%;
+  justify-content: flex-end;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.spacer {
+  width: 1px;
+  height: 24px;
+  background-color: #e0e0e2;
+}
+
+.shop .auth {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  border: 0.01px solid #e0e0e2;
+  border-radius: 10px;
+  padding: 7px 12px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+}
+
+header nav .right {
+  display: flex;
+  column-gap: 14px;
+  width: 75%;
+}
+
+header nav .right .nav-item {
+  display: flex;
+  align-items: center;
+}
+
+header nav .right .nav-item img {
+  width: 18px;
+  height: 18px;
+}
+
+header nav .left {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  cursor: pointer;
+}
+
+header nav .left img {
+  width: 18px;
+  height: 18px;
+}

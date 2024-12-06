@@ -1,0 +1,132 @@
+.fresh {
+  margin-top: 16px;
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 16px;
+}
+.fresh .fresh-box {
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  direction: rtl;
+  width: calc(100% - 32px);
+  height: inherit;
+  background-color: #ebeeed;
+  border-radius: 16px;
+  background-image: url(../../../images/fresh/background.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+.fresh .fresh-box .f-link-center {
+  all: unset;
+  cursor: pointer;
+  width: inherit;
+  height: inherit;
+  display: flex;
+  align-items: center;
+}
+.fresh .right {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.fresh .right .f-1 {
+  width: 66px;
+  height: 62px;
+}
+.fresh .right .f-2 {
+  width: calc(356px - 66px);
+  height: inherit;
+}
+.fresh .right .f-2 img {
+  width: 250px;
+  height: 28px;
+}
+.fresh .right .p-f {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #029a49;
+  width: 110.5px;
+  height: 26;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 16px;
+}
+.fresh .right .p-f p {
+  color: #fff;
+}
+.fresh .left {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.fresh .left .f-kala {
+  width: 492px;
+  height: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5px;
+}
+.fresh .left .f-kala .f-link {
+  text-decoration: none;
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.fresh .left .f-kala .f-link .f-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fresh .left .f-kala .f-link .f-img img {
+  margin-top: 6px;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+}
+.fresh .left .f-kala .f-link .f-span {
+  width: 34px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d32f2f;
+  font-size: 12px;
+  border-radius: 16px;
+  font-weight: 400;
+}
+.fresh .left .f-kala .f-link .f-span span {
+  font-family: var(--font-family);
+  color: #fff;
+}
+.fresh .left .more {
+  background-color: #fff;
+  width: 144px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fresh .left .more span {
+  color: #029a49;
+  font-family: var(--font-family);
+  font-size: 14px;
+  font-weight: 700;
+}
+.fresh .left .more img {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
